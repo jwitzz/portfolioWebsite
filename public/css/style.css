@@ -11,6 +11,11 @@ header {
 h1 {
     margin-left: 20px;
     color: white;
+    font-size: 50px;
+}
+
+header h1 {
+    font-family: "Oi", serif;
 }
 
 .links {
@@ -67,13 +72,49 @@ h1 {
 
 .rec-1 {
     background-color: rgb(48, 193, 241);
-    width: 500px;
-    height: 200px;
+    width: 410px;
+    height: 400px;
     position: absolute;
     z-index: 2;
     top: 100px;
     left: 54%;
+    z-index: 2;
+    border-radius: 100%;
+}
+
+.rec-2 {
+    background-color: rgb(37, 58, 250);
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    z-index: 2;
+    top: 25px;
+    left: 66%;
     z-index: 1;
+    border-radius: 100%;
+
+}
+
+.rec-3 {
+    background-color: rgb(4, 11, 70);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    left: 83%;
+    z-index: 0;
+    border-radius: 100%;
+}
+
+.rec-4 {
+    background-color: rgb(59, 70, 167);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 85%;
+    left: -3%;
+    z-index: -1;
+    border-radius: 100%;
 }
 
 .about-container, .photo-container {
