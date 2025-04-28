@@ -62,6 +62,23 @@ h1 {
     justify-content: space-around;
     border: 3px solid black;
     color: white;
+    position: relative;
+}
+
+.rec-1 {
+    background-color: rgb(48, 193, 241);
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    left: 54%;
+    z-index: 1;
+}
+
+.about-container, .photo-container {
+    position: relative;
+    z-index: 2;
 }
 
 .about-container {
