@@ -1,5 +1,5 @@
 body {
-    background-color: navy;
+    background-color: rgb(3, 3, 75);
 }
 
 header {
@@ -26,7 +26,7 @@ header h1 {
     list-style: none;
     margin: 0;
     padding: 0;
-    width: 600px;
+    width: 800px;
     justify-content: space-around;
     margin-right: 90px;
 }
@@ -35,12 +35,25 @@ header h1 {
     text-decoration: none;
     font-size: 30px;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .links a:hover {
     text-decoration: underline;
     font-size: 32px;
-    color: lightblue;
+    color: rgb(241, 101, 7);
+}
+
+.contact-button a {
+    border: 2px solid black;
+    padding: 15px;
+    margin-left: 30px;
+    border-radius: 25px;
+    background-color: rgb(236, 93, 10);
+}
+
+.contact-button a:hover {
+    color: white;
 }
 
 /*About*/
@@ -64,14 +77,13 @@ header h1 {
 .container-3 {
     width: 100%;
     display: flex;
-    justify-content: space-around;
     border: 3px solid black;
     color: white;
     position: relative;
 }
 
 .rec-1 {
-    background-color: rgb(48, 193, 241);
+    background-color: blue;
     width: 410px;
     height: 400px;
     position: absolute;
@@ -83,7 +95,7 @@ header h1 {
 }
 
 .rec-2 {
-    background-color: rgb(37, 58, 250);
+    background-color: blue;
     width: 400px;
     height: 350px;
     position: absolute;
@@ -92,11 +104,12 @@ header h1 {
     left: 66%;
     z-index: 1;
     border-radius: 100%;
+    opacity: 0.5;
 
 }
 
 .rec-3 {
-    background-color: rgb(4, 11, 70);
+    background-color: blue;
     width: 50px;
     height: 50px;
     position: absolute;
@@ -104,10 +117,11 @@ header h1 {
     left: 83%;
     z-index: 0;
     border-radius: 100%;
+    opacity: 0.2;
 }
 
 .rec-4 {
-    background-color: rgb(59, 70, 167);
+    background-color: blue;
     width: 200px;
     height: 200px;
     position: absolute;
@@ -115,6 +129,17 @@ header h1 {
     left: -3%;
     z-index: -1;
     border-radius: 100%;
+    opacity: 0.2;
+}
+
+.rec-5 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 100%;
+    margin-left: 68%;
+    opacity: 0.3;
 }
 
 .about-container, .photo-container {
@@ -126,7 +151,22 @@ header h1 {
     width: 450px;
     height: 500px;
     border: 3px solid black;
+    margin-left: 20%;
 
+}
+
+.about-container h2 {
+    font-family: 'Ranchers', sans-serif;
+    font-size: 50px;
+}
+
+.about-container h3 {
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 50px;
+}
+
+.about-container p {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*photo*/
@@ -135,4 +175,5 @@ header h1 {
     border: 3px solid black;
     width: 500px;
     height: 500px;
+    margin-left: 38%;
 }
