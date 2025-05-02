@@ -6,6 +6,11 @@ const nodemailer = require('nodemailer');
 // Initialize Express app
 const app = express();
 
+const path = require('path');
+
+// Serve static files
+app.use(express.static(path.join(__dirname, 'public')));
+
 // Middleware to parse incoming JSON data
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
