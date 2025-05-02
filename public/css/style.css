@@ -209,3 +209,52 @@ header h1 {
     height: 500px;
     margin-left: 38%;
 }
+
+/*Contact*/
+
+.contact-section {
+    color: white;
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: rgb(9, 40, 214);
+    border-radius: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-section label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+
+.contact-section button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: rgb(236, 93, 10);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.contact-section button:hover {
+    background-color: rgb(241, 101, 7);
+    text-decoration: underline;
+}
