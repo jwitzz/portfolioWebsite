@@ -42,7 +42,7 @@ app.post('/send-email', (req, res) => {
 });
 
 // Server listening on the environment's port or default to 3000
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
