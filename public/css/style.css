@@ -257,3 +257,68 @@ header h1 {
     background-color: rgb(241, 101, 7);
     text-decoration: underline;
 }
+
+/*Phone*/
+
+@media (max-width: 768px) {
+    body {
+      border-width: 5px;
+    }
+  
+    h1 {
+      font-size: 30px;
+      margin-left: 10px;
+    }
+  
+    .links {
+      flex-direction: column;
+      width: 100%;
+      margin-right: 0;
+    }
+  
+    .links a {
+      font-size: 20px;
+      margin: 5px 0;
+    }
+  
+    .contact-button a {
+      margin-left: 0;
+      padding: 10px;
+    }
+  
+    .container-3 {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .about-container {
+      width: 90%;
+      margin: 0 auto;
+    }
+  
+    .photo-container img {
+      width: 90%;
+      height: auto;
+      margin: 20px auto;
+      display: block;
+    }
+  
+    .rec-1, .rec-2, .rec-3, .rec-4, .rec-5, .rec-6, .rec-7 {
+      display: none; /* hide decorative shapes on small screens */
+    }
+  
+    .contact-section {
+      margin: 40px 20px;
+      padding: 20px;
+    }
+  
+    .contact-section input,
+    .contact-section textarea {
+      font-size: 14px;
+    }
+  
+    .contact-section button {
+      width: 100%;
+      font-size: 16px;
+    }
+  }
