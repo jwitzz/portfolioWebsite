@@ -8,7 +8,6 @@ html, body {
     height: 100%;
     border: 10px solid blue;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 header {
